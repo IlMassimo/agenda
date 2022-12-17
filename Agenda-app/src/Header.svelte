@@ -1,5 +1,13 @@
+<script>
+  import DateSelect from "./Date-select.svelte";
+</script>
+
 <div class="header-container">
-  <div class="header-content" />
+  <div class="header-content">
+    <div class="logo" />
+    <DateSelect />
+    <div class="format-selection" />
+  </div>
 </div>
 
 <style>
@@ -14,5 +22,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .logo {
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px;
+  }
+  .date-select {
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px;
+  }
+  .format-selection {
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px;
   }
 </style>
